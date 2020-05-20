@@ -1,0 +1,23 @@
+<movable-area class="container">
+  <movable-view
+    class="move-view"
+    direction="{{'all'}}"
+    catch:tap="onTap"
+    animation="{{true}}"
+    x="{{100}}"
+    y="{{100}}"
+    bindtouchmove="onTouchmove"
+    bindtouchend="onTouchend"
+    bindchange="onChange"
+    style="height:{{100}}rpx; width:{{100}}rpx;"
+  >
+    <image
+      class="background-image"
+      src="{{'https://yujiahuitest.oss-cn-hangzhou.aliyuncs.com/soyoung/20042616089519867975893185.jpg?filename=800x800.jpg'}}"
+      mode="{{'widthFix'}}"
+      webp="{{webp}}"
+      binderror="onImageLoadError"
+    />
+  </movable-view>
+</movable-area>
+<view style="width:800rpx;height:800px;background:red;" bind:tap="onBottomTap"></view>

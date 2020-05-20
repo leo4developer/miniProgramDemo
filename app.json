@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/A/A",
+    "pages/B/B",
+    "pages/template/index",
+    "pages/Decorator Pattern/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffa",
+    "navigationBarTitleText": "test",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ffe"
+  },
+  "sitemapLocation": "sitemap.json"
+}

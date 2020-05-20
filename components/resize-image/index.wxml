@@ -1,0 +1,9 @@
+<!--components/resize-image.wxml-->
+<view style="height:{{imageheight}}px;">
+  <image
+    src="{{src}}"
+    mode="widthFix"
+    id="resize-image"
+    bindload="resizeview"
+  />
+</view>

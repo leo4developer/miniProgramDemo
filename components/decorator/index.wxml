@@ -1,0 +1,7 @@
+<!--components/decorator/index.wxml-->
+<view class="container">
+	<view class="wrapper" wx:if="{{wrapped}}">
+    <view style="color:{{title.color}};font-size:{{title.fontSize}};">{{title.text}}</view>
+	</view>
+	<slot />
+</view>

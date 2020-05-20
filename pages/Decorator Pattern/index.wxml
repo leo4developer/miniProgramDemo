@@ -1,0 +1,5 @@
+<!--pages/Decorator Pattern/index.wxml-->
+<goods-card goods="{{goods}}" />
+<decorator wrapped="{{true}}">
+  <goods-card goods="{{goods}}" />
+</decorator>

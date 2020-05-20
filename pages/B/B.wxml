@@ -1,0 +1,3 @@
+<!--pages/B/B.wxml-->
+<view>B</view>
+<button bind:tap="onJump">跳转目标页</button>

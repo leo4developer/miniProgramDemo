@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "user": "../components/user",
+    "stepper": "@vant/weapp/stepper/index",
+    "van-count-down": "@vant/weapp/count-down/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "resize-image": "../../components/resize-image",
+    "decorator": "../../components/decorator/index"
+  },
+  "navigationBarTitleText": "微信接口功能演示",
+  "backgroundColor": "#eeeeee"
+}
