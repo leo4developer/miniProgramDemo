@@ -81,6 +81,13 @@
 					"id": -1,
 					"name": "pages/index/inde",
 					"pathName": "pages/Decorator Pattern/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/van-count-down/index",
+					"pathName": "pages/van-count-down/index",
 					"scene": null
 				}
 			]

@@ -1,0 +1,5 @@
+<!--pages/van-count-down/index.wxml-->
+<view class="container">
+<text>pages/van-count-down/index.wxml</text>
+<van-count-down time="{{80000}}" />
+</view>

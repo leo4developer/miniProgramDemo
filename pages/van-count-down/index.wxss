@@ -1,0 +1,5 @@
+/* pages/van-count-down/index.wxss */
+.container {
+  display: flex;
+  align-items: center;
+}
