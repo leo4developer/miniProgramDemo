@@ -25,7 +25,7 @@ Page({
     console.log(this.data.value);
   },
   onTap() {
-    console.log('点击------------');
+    console.log('点击图标------------');
     
   },
   onBottomTap() {
