@@ -1,5 +1,6 @@
 // pages/B/B.js
 import indexLogic from '../index/indexLogic.js'
+import SystemInfoService from '../../services/System.service.js'
 Page({
 
   /**
@@ -12,8 +13,10 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-
+  onLoad: async function (options) {
+    const res = await SystemInfoService.getInstance().getSystemInfoPromise();
+    console.log(res);
+    
   },
 
   /**

@@ -1,0 +1,9 @@
+<!--pages/viewPort/index.wxml-->
+<text>pages/viewPort/index.wxml</text>
+<view wx:for="{{topList}}" style="width:100px;height:50px;background:green;">
+  <view>{{item}}</view>
+</view>
+<view id="red-item" style="width:100px;height:100px;background:red;"></view>
+<view wx:for="{{bottomList}}" style="width:100px;height:50px;background:blue;">
+  <view>{{item}}</view>
+</view>

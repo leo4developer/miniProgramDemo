@@ -1,12 +1,9 @@
 import Cart from './services/cart.js';
-import systemService from './services/System.service';
 //app.js
 App({
   onLaunch: async function () {
     // 展示本地存储能力
     this.cart = new Cart();
-    await systemService.getSystemInfoPromise();
-    console.log(systemService);
     
   },
   globalData: {

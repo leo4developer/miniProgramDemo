@@ -6,7 +6,9 @@
     "pages/B/B",
     "pages/template/index",
     "pages/Decorator Pattern/index",
-    "pages/van-count-down/index"
+    "pages/Observer Pattern/index",
+    "pages/van-count-down/index",
+    "pages/viewPort/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
