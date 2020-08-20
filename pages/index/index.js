@@ -7,9 +7,14 @@ Page({
     value: '111111222222'
   },
 
-  onLoad: function (query) {
-    console.log('index', systemInfoService);
-    
+  onLoad: async function (query) {
+    // this.fetchName();
+    console.log(new Date())
+    this.fetchName();
+    // await this.fetchId();
+    // console.log(new Date())
+    // this.fetchId2();
+    console.log(new Date())
   },
   onShow() {
  
@@ -30,8 +35,34 @@ Page({
   },
   onBottomTap() {
     console.log('点击底部------------');
-  }
-
+  },
+  async fetchName() {
+    console.log('fetchName')
+    const res = await this.fetchId()
+    const res2 = await this.fetchId2()
+    // return new Promise((resolve, reject) => {
+    //   setTimeout(() => {
+    //     console.log('fetchName', new Date());
+    //     resolve();
+    //   }, 2000);
+    // })
+  },
+  fetchId() {
+    return new Promise((resolve, reject) => { 
+      setTimeout(() => {
+        // console.log('fetchId', new Date());
+        resolve();
+      }, 2000);
+    })
+  },
+  fetchId2() {
+    return new Promise((resolve, reject) => { 
+      setTimeout(() => {
+        // console.log('fetchId', new Date());
+        resolve();
+      }, 2000);
+    })
+  },
   
 
 })

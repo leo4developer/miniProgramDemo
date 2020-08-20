@@ -1,26 +1,17 @@
-// pages/Decorator Pattern/index.js
-import { goods } from '../../mock/goods';
-import Button from './decorator';
-
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    color: "red"
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      goods
-    });
-    const button = new Button();
-    console.log(Button.hasDecorator);
-    console.log(button.onclick());
+
   },
 
   /**

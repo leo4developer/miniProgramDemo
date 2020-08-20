@@ -1,26 +1,18 @@
-// pages/Decorator Pattern/index.js
-import { goods } from '../../mock/goods';
-import Button from './decorator';
-
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    a: 10,
+    b: 50
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      goods
-    });
-    const button = new Button();
-    console.log(Button.hasDecorator);
-    console.log(button.onclick());
+    
   },
 
   /**
@@ -70,5 +62,20 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  onClick() {
+    // 计算价格
+    const sum = this.calculate();
+    // 增加优惠计算
+  },
+  calculate() {
+    const sum  = this.a + this.b;
+    console.log(sum);
+  },
+  sum() {
+
+  },
+  discount(price) {
+    return price * 0.8;
   }
 })

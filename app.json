@@ -8,7 +8,9 @@
     "pages/Decorator Pattern/index",
     "pages/Observer Pattern/index",
     "pages/van-count-down/index",
-    "pages/viewPort/index"
+    "pages/viewPort/index",
+    "pages/Prototype Pattern/index",
+    "pages/State Pattern/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

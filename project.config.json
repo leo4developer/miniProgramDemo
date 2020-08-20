@@ -27,7 +27,7 @@
 			"outputPath": ""
 		},
 		"useIsolateContext": true,
-		"useCompilerModule": false,
+		"useCompilerModule": true,
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
@@ -110,6 +110,20 @@
 					"id": -1,
 					"name": "pages/Observer Pattern/index",
 					"pathName": "pages/Observer Pattern/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/Decorator Pattern/index",
+					"pathName": "pages/Decorator Pattern/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/State Pattern/index",
+					"pathName": "pages/State Pattern/index",
 					"scene": null
 				}
 			]
