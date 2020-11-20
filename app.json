@@ -10,7 +10,9 @@
     "pages/van-count-down/index",
     "pages/viewPort/index",
     "pages/Prototype Pattern/index",
-    "pages/State Pattern/index"
+    "pages/State Pattern/index",
+    "pages/animate/index",
+    "pages/superpositionView/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

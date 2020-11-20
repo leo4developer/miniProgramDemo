@@ -1,6 +1,4 @@
 /**app.wxss**/
-
-page {
-  /* height: 100%; */
-  
+view {
+  box-sizing: border-box;
 }

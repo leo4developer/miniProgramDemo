@@ -5,15 +5,15 @@ export default class GumballMachine extends State {
 
   
   constructor(count) {
-    const noQuarterState = new NoQuarterState(this);
-    const hasQuarterState = new HasQuarterState(this);
-    const soldState = new SoldState(this);
-    const soldOutState = new SoldOutState(this);
+    this.noQuarterState = new NoQuarterState(this);
+    this.hasQuarterState = new HasQuarterState(this);
+    this.soldState = new SoldState(this);
+    this.soldOutState = new SoldOutState(this);
 
     this.state = soldOutState;
     this.candyCount = count;
-    if (count > 0) {
-      this.setState()
+    if (count < 0) {
+      this.state = soldOutState;
     }
   }
   inserQuarter() {

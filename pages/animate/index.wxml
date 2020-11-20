@@ -1,0 +1,7 @@
+<!--pages/animate/index.wxml-->
+<view id="wrap" class="wrap" animation="{{animation}}" style="height:{{wrapH}}px;">
+  <view id="{{'item'+index}}" class="a {{'item'+index}}" wx:for="{{list}}" wx:key="index" >
+    <view>{{item}}</view>
+  </view>
+</view>
+<view class="expand" catchtap="expand" wx:if="{{list.length > 0 }}"></view>

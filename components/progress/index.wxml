@@ -1,0 +1,7 @@
+<!--components/progress/index.wxml-->
+<view class="container">
+<view wx:for="{{steps}}" wx:key="index">
+  <view style="background:{{item.color}};"></view>
+  <view>{{item.title}}</view>
+</view>
+</view>

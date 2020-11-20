@@ -1,0 +1,4 @@
+<!--components/moveView/index.wxml-->
+<movable-area class="container">
+  <movable-view catchtap="onTap"  class="move-view" direction="all">test</movable-view>
+</movable-area>

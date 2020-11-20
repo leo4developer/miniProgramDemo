@@ -1,0 +1,13 @@
+/* pages/animate/index.wxss */
+.a {
+  border: 1rpx solid red;
+}
+.expand {
+  width: auto;
+  height: 80rpx;
+  background: blue;
+}
+.wrap {
+  background:black;
+  overflow:hidden;
+}

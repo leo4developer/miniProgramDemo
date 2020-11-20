@@ -1,6 +1,7 @@
 // pages/B/B.js
 import indexLogic from '../index/indexLogic.js'
 import SystemInfoService from '../../services/System.service.js'
+import user from '../../services/User';
 Page({
 
   /**
@@ -30,6 +31,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
+    console.log(user);
 
   },
 

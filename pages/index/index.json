@@ -10,6 +10,5 @@
     "resize-image": "../../components/resize-image",
     "decorator": "../../components/decorator/index"
   },
-  "navigationBarTitleText": "微信接口功能演示",
-  "backgroundColor": "#eeeeee"
+  "navigationBarTitleText": "微信接口功能演示"
 }

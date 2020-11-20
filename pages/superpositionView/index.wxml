@@ -1,0 +1,7 @@
+<!--pages/superpositionView/index.wxml-->
+<text>实现叠加的两个view</text>
+<view style="position:relative;width:750rpx;height:800rpx;background:black;display:flex;justify-content:center;">
+  <view style="width:200rpx;height:200rpx;position:absolute;background:green;left:200rpx;top:0;">
+</view>
+  <view style="width:600rpx;height:600rpx;background:red;margin-top:80rpx;"></view>
+</view>

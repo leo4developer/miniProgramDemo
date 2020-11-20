@@ -1,37 +1,20 @@
-import indexLogic from '../index/indexLogic.js'
-import SystemInfoService from '../../services/System.service.js'
-import user from '../../services/User';
-// pages/A/A.js
+// pages/superpositionView/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    name: 'myname'
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    const systemInfoService = SystemInfoService.getInstance();
-    const promise = systemInfoService.getSystemInfoPromise();
-    promise.then(res=>{
-      console.log(res);
-      
-    });
-    setTimeout(this.logName, 2000);
-    
+
   },
-  logName() {
-    console.log(this.data.name);
-    
-  },
-  onClick(e) {
-    console.log('点击了红色视图的子视图', e);
-    
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -43,10 +26,9 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    console.log(user);
-    user.name = '222';
+
   },
-  
+
   /**
    * 生命周期函数--监听页面隐藏
    */
@@ -80,10 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  onJump() {
-    wx.navigateTo({
-      url: '../B/B?source=A',
-    })
   }
 })

@@ -1,2 +1,4 @@
 <!--components/template/index.wxml-->
-<view style="background:red;"> red </view>
+<view style="background:red;" >
+  <chirld />
+</view>

@@ -1,3 +1,2 @@
 <!--pages/A/A.wxml-->
-<view>A</view>
-<button bind:tap="onJump">跳转目标页</button>
+<image mode="aspectFit" style="width:100%;" src="../../asset/hd.jpg" />
